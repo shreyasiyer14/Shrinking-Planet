@@ -1,0 +1,10 @@
+<sbspresets formatversion="1.0" count="1">
+ <sbspreset pkgurl="pkg://EasyGrass/EasyGrass" description="Exported from Unity" label="unity">
+ <presetinput identifier="$outputsize" uid="3625370201" type="8" value="11,11"/>
+ <presetinput identifier="$randomseed" uid="2405749771" type="4" value="0"/>
+ <presetinput identifier="Zoom" uid="2935067436" type="4" value="5"/>
+ <presetinput identifier="Grass_Thickness" uid="2935067512" type="4" value="3"/>
+ <presetinput identifier="Grass_Color" uid="2934993583" type="4" value="1"/>
+ <presetinput identifier="Custom_Color" uid="2934993612" type="3" value="0.435294,0.623529,0.235294,1.000000"/>
+ </sbspreset>
+</sbspresets>
