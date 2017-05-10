@@ -1,70 +1,50 @@
 Base path: /Applications/Unity/Unity.app/Contents
 Cmd: getPlatforms
+Cmd: preprocess
+  error: 1 plat 19 at (26): Both vertex and fragment programs must be present in a CGPROGRAM. Excluding it from compilation.
+  error: 1 plat 19 at (45): Both vertex and fragment programs must be present in a CGPROGRAM. Excluding it from compilation.
+  error: 1 plat 19 at (63): Both vertex and fragment programs must be present in a CGPROGRAM. Excluding it from compilation.
+  error: 1 plat 19 at (81): Both vertex and fragment programs must be present in a CGPROGRAM. Excluding it from compilation.
+  error: 1 plat 19 at (99): Both vertex and fragment programs must be present in a CGPROGRAM. Excluding it from compilation.
+  error: 1 plat 19 at (117): Both vertex and fragment programs must be present in a CGPROGRAM. Excluding it from compilation.
+  error: 1 plat 19 at (135): Both vertex and fragment programs must be present in a CGPROGRAM. Excluding it from compilation.
+  error: 1 plat 19 at (153): Both vertex and fragment programs must be present in a CGPROGRAM. Excluding it from compilation.
+  error: 1 plat 19 at (171): Both vertex and fragment programs must be present in a CGPROGRAM. Excluding it from compilation.
+  error: 1 plat 19 at (189): Both vertex and fragment programs must be present in a CGPROGRAM. Excluding it from compilation.
+  error: 1 plat 19 at (207): Both vertex and fragment programs must be present in a CGPROGRAM. Excluding it from compilation.
+  error: 1 plat 19 at (225): Both vertex and fragment programs must be present in a CGPROGRAM. Excluding it from compilation.
+  error: 1 plat 19 at (243): Both vertex and fragment programs must be present in a CGPROGRAM. Excluding it from compilation.
+  error: 1 plat 19 at (261): Both vertex and fragment programs must be present in a CGPROGRAM. Excluding it from compilation.
+  error: 1 plat 19 at (279): Both vertex and fragment programs must be present in a CGPROGRAM. Excluding it from compilation.
+  error: 1 plat 19 at (297): Both vertex and fragment programs must be present in a CGPROGRAM. Excluding it from compilation.
+  error: 1 plat 19 at (315): Both vertex and fragment programs must be present in a CGPROGRAM. Excluding it from compilation.
+  error: 1 plat 19 at (333): Both vertex and fragment programs must be present in a CGPROGRAM. Excluding it from compilation.
+  error: 1 plat 19 at (351): Both vertex and fragment programs must be present in a CGPROGRAM. Excluding it from compilation.
+  error: 1 plat 19 at (369): Both vertex and fragment programs must be present in a CGPROGRAM. Excluding it from compilation.
+  insize=7613 outsize=3899 ok=1
 Cmd: compileSnippet
-  api=15 type=0 insize=1431 outsize=2131 kw= pd=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING SHADER_API_DESKTOP UNITY_COLORSPACE_GAMMA ok=1
+  api=15 type=0 insize=4816 outsize=4447 kw= pd=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING SHADER_API_DESKTOP UNITY_COLORSPACE_GAMMA ok=1
 Cmd: compileSnippet
-  api=15 type=1 insize=1431 outsize=0 kw= pd=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING SHADER_API_DESKTOP UNITY_COLORSPACE_GAMMA ok=1
-Cmd: compileSnippet
-  api=15 type=0 insize=1442 outsize=2184 kw= pd=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING SHADER_API_DESKTOP UNITY_COLORSPACE_GAMMA ok=1
-Cmd: compileSnippet
-  api=15 type=1 insize=1442 outsize=0 kw= pd=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING SHADER_API_DESKTOP UNITY_COLORSPACE_GAMMA ok=1
-Cmd: compileSnippet
-  api=15 type=0 insize=13171 outsize=10260 kw=_SUNDISK_SIMPLE pd=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING SHADER_API_DESKTOP UNITY_COLORSPACE_GAMMA ok=1
-Cmd: compileSnippet
-  api=15 type=1 insize=13171 outsize=0 kw=_SUNDISK_SIMPLE pd=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING SHADER_API_DESKTOP UNITY_COLORSPACE_GAMMA ok=1
-Cmd: compileSnippet
-  api=15 type=0 insize=1464 outsize=2078 kw= pd=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING SHADER_API_DESKTOP UNITY_COLORSPACE_GAMMA ok=1
-Cmd: compileSnippet
-  api=15 type=1 insize=1464 outsize=0 kw= pd=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING SHADER_API_DESKTOP UNITY_COLORSPACE_GAMMA ok=1
-Cmd: compileSnippet
-  api=15 type=0 insize=1108 outsize=1221 kw= pd=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING SHADER_API_DESKTOP UNITY_COLORSPACE_GAMMA ok=1
-Cmd: compileSnippet
-  api=15 type=1 insize=1108 outsize=0 kw= pd=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING SHADER_API_DESKTOP UNITY_COLORSPACE_GAMMA ok=1
-Cmd: compileSnippet
-  api=15 type=0 insize=728 outsize=2925 kw=SHADOWS_DEPTH pd=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING SHADER_API_DESKTOP UNITY_COLORSPACE_GAMMA ok=1
-Cmd: compileSnippet
-  api=15 type=1 insize=728 outsize=0 kw=SHADOWS_DEPTH pd=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING SHADER_API_DESKTOP UNITY_COLORSPACE_GAMMA ok=1
-Cmd: compileSnippet
-  api=15 type=0 insize=1023 outsize=13859 kw=DIRECTIONAL pd=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING SHADER_API_DESKTOP UNITY_COLORSPACE_GAMMA ok=1
-Cmd: compileSnippet
-  api=15 type=1 insize=1023 outsize=0 kw=DIRECTIONAL pd=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING SHADER_API_DESKTOP UNITY_COLORSPACE_GAMMA ok=1
-Cmd: compileSnippet
-  api=15 type=0 insize=949 outsize=6375 kw=DIRECTIONAL pd=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING SHADER_API_DESKTOP UNITY_COLORSPACE_GAMMA ok=1
-Cmd: compileSnippet
-  api=15 type=1 insize=949 outsize=0 kw=DIRECTIONAL pd=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING SHADER_API_DESKTOP UNITY_COLORSPACE_GAMMA ok=1
-Cmd: compileSnippet
-  api=15 type=0 insize=18539 outsize=9872 kw=SHADOWS_SPLIT_SPHERES pd=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING SHADER_API_DESKTOP UNITY_COLORSPACE_GAMMA ok=1
-Cmd: compileSnippet
-  api=15 type=1 insize=18539 outsize=0 kw=SHADOWS_SPLIT_SPHERES pd=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING SHADER_API_DESKTOP UNITY_COLORSPACE_GAMMA ok=1
-Cmd: compileSnippet
-  api=15 type=0 insize=1023 outsize=14375 kw=DIRECTIONAL SHADOWS_SCREEN pd=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING SHADER_API_DESKTOP UNITY_COLORSPACE_GAMMA ok=1
-Cmd: compileSnippet
-  api=15 type=1 insize=1023 outsize=0 kw=DIRECTIONAL SHADOWS_SCREEN pd=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING SHADER_API_DESKTOP UNITY_COLORSPACE_GAMMA ok=1
-Cmd: compileSnippet
-  api=15 type=0 insize=870 outsize=1004 kw= pd=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING SHADER_API_DESKTOP UNITY_COLORSPACE_GAMMA ok=1
-Cmd: compileSnippet
-  api=15 type=1 insize=870 outsize=0 kw= pd=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING SHADER_API_DESKTOP UNITY_COLORSPACE_GAMMA ok=1
-Cmd: compileSnippet
-  api=15 type=0 insize=1023 outsize=14070 kw=DIRECTIONAL _EMISSION pd=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING SHADER_API_DESKTOP UNITY_COLORSPACE_GAMMA ok=1
-Cmd: compileSnippet
-  api=15 type=1 insize=1023 outsize=0 kw=DIRECTIONAL _EMISSION pd=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING SHADER_API_DESKTOP UNITY_COLORSPACE_GAMMA ok=1
-Cmd: compileSnippet
-  api=15 type=0 insize=1023 outsize=14586 kw=DIRECTIONAL SHADOWS_SCREEN _EMISSION pd=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING SHADER_API_DESKTOP UNITY_COLORSPACE_GAMMA ok=1
-Cmd: compileSnippet
-  api=15 type=1 insize=1023 outsize=0 kw=DIRECTIONAL SHADOWS_SCREEN _EMISSION pd=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING SHADER_API_DESKTOP UNITY_COLORSPACE_GAMMA ok=1
-Cmd: compileSnippet
-  api=15 type=0 insize=597 outsize=2925 kw=SHADOWS_DEPTH pd=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING SHADER_API_DESKTOP UNITY_COLORSPACE_GAMMA ok=1
-Cmd: compileSnippet
-  api=15 type=1 insize=597 outsize=0 kw=SHADOWS_DEPTH pd=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING SHADER_API_DESKTOP UNITY_COLORSPACE_GAMMA ok=1
-Cmd: compileSnippet
-  api=15 type=0 insize=6957 outsize=3635 kw=DIRECTIONAL pd=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING SHADER_API_DESKTOP UNITY_COLORSPACE_GAMMA ok=1
-Cmd: compileSnippet
-  api=15 type=1 insize=6957 outsize=0 kw=DIRECTIONAL pd=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING SHADER_API_DESKTOP UNITY_COLORSPACE_GAMMA ok=1
-Cmd: compileSnippet
-  api=15 type=0 insize=3671 outsize=2341 kw=DIRECTIONAL pd=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING SHADER_API_DESKTOP UNITY_COLORSPACE_GAMMA ok=1
-Cmd: compileSnippet
-  api=15 type=1 insize=3671 outsize=0 kw=DIRECTIONAL pd=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING SHADER_API_DESKTOP UNITY_COLORSPACE_GAMMA ok=1
-Cmd: compileSnippet
-  api=15 type=0 insize=6957 outsize=4151 kw=DIRECTIONAL SHADOWS_SCREEN pd=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING SHADER_API_DESKTOP UNITY_COLORSPACE_GAMMA ok=1
-Cmd: compileSnippet
-  api=15 type=1 insize=6957 outsize=0 kw=DIRECTIONAL SHADOWS_SCREEN pd=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING SHADER_API_DESKTOP UNITY_COLORSPACE_GAMMA ok=1
+  api=15 type=1 insize=4816 outsize=0 kw= pd=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING SHADER_API_DESKTOP UNITY_COLORSPACE_GAMMA ok=1
+Cmd: preprocess
+  error: 1 plat 19 at (26): Both vertex and fragment programs must be present in a CGPROGRAM. Excluding it from compilation.
+  error: 1 plat 19 at (45): Both vertex and fragment programs must be present in a CGPROGRAM. Excluding it from compilation.
+  error: 1 plat 19 at (63): Both vertex and fragment programs must be present in a CGPROGRAM. Excluding it from compilation.
+  error: 1 plat 19 at (81): Both vertex and fragment programs must be present in a CGPROGRAM. Excluding it from compilation.
+  error: 1 plat 19 at (99): Both vertex and fragment programs must be present in a CGPROGRAM. Excluding it from compilation.
+  error: 1 plat 19 at (117): Both vertex and fragment programs must be present in a CGPROGRAM. Excluding it from compilation.
+  error: 1 plat 19 at (135): Both vertex and fragment programs must be present in a CGPROGRAM. Excluding it from compilation.
+  error: 1 plat 19 at (153): Both vertex and fragment programs must be present in a CGPROGRAM. Excluding it from compilation.
+  error: 1 plat 19 at (171): Both vertex and fragment programs must be present in a CGPROGRAM. Excluding it from compilation.
+  error: 1 plat 19 at (189): Both vertex and fragment programs must be present in a CGPROGRAM. Excluding it from compilation.
+  error: 1 plat 19 at (207): Both vertex and fragment programs must be present in a CGPROGRAM. Excluding it from compilation.
+  error: 1 plat 19 at (225): Both vertex and fragment programs must be present in a CGPROGRAM. Excluding it from compilation.
+  error: 1 plat 19 at (243): Both vertex and fragment programs must be present in a CGPROGRAM. Excluding it from compilation.
+  error: 1 plat 19 at (261): Both vertex and fragment programs must be present in a CGPROGRAM. Excluding it from compilation.
+  error: 1 plat 19 at (279): Both vertex and fragment programs must be present in a CGPROGRAM. Excluding it from compilation.
+  error: 1 plat 19 at (297): Both vertex and fragment programs must be present in a CGPROGRAM. Excluding it from compilation.
+  error: 1 plat 19 at (315): Both vertex and fragment programs must be present in a CGPROGRAM. Excluding it from compilation.
+  error: 1 plat 19 at (333): Both vertex and fragment programs must be present in a CGPROGRAM. Excluding it from compilation.
+  error: 1 plat 19 at (351): Both vertex and fragment programs must be present in a CGPROGRAM. Excluding it from compilation.
+  error: 1 plat 19 at (369): Both vertex and fragment programs must be present in a CGPROGRAM. Excluding it from compilation.
+  insize=7613 outsize=3899 ok=1
