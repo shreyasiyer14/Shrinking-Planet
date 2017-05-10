@@ -10,9 +10,7 @@ public class PlayerController : MonoBehaviour {
 	[SerializeField] private Transform planet;
 
 	void Start () {
-		Time.timeScale = 0.1f * Time.unscaledDeltaTime;
-		Time.timeScale = Mathf.Clamp (Time.timeScale, 0f, 1f);
-		Time.fixedDeltaTime = 0.02f * Time.timeScale;
+		
 	}
 	
 	void Fixedupdate () {
@@ -21,7 +19,6 @@ public class PlayerController : MonoBehaviour {
 
 	void Update () {
 		RotateAroundPlanet ();
-
 		#region INPUT_MANAGER
 		if (Input.GetKey(KeyCode.D))
 			transform.Rotate (new Vector3 (turnFactor, 0f, 0f));
@@ -33,7 +30,7 @@ public class PlayerController : MonoBehaviour {
 	}
 
 	void RotateAroundPlanet () {
-		//Y and Z parameters for the Quaternion will remain the same throughout, only the X parameter changes.
-		transform.RotateAround(planet.position, Vector3.up, speed * 100f * Time.fixedDeltaTime);
+		transform.Translate (Vector3.forward * speed * Time.fixedDeltaTime);
+		GetComponent<Rigidbody>().AddForce((planet.position - transform.position).normalized * turnFactor * 20f);
 	}
 }
