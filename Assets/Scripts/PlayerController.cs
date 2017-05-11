@@ -33,4 +33,8 @@ public class PlayerController : MonoBehaviour {
 		transform.Translate (Vector3.forward * speed * Time.fixedDeltaTime);
 		GetComponent<Rigidbody>().AddForce((planet.position - transform.position).normalized * turnFactor * 15f);
 	}
+
+	void OnCollisionEnter () {
+
+	}
 }
