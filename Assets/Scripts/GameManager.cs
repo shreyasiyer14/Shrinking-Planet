@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class GameManager : MonoBehaviour {
 
@@ -9,10 +10,10 @@ public class GameManager : MonoBehaviour {
 	[SerializeField] private float reductionFactor;
 	void Update () {
 		ReducePlanetScale ();
-		Debug.Log ("Score: " +  planet.localScale + "m");
+		UX.GetComponent<Text> ().text = planet.localScale.x.ToString() + "m";
 	}
 
 	void ReducePlanetScale () {
-		planet.localScale = new Vector3 (planet.localScale.x - reductionFactor * Time.fixedDeltaTime, planet.localScale.y - reductionFactor * Time.fixedDeltaTime, planet.localScale.z - reductionFactor * Time.fixedDeltaTime);
+		planet.localScale -= Vector3.one * Time.fixedDeltaTime * reductionFactor;
 	}
 }
